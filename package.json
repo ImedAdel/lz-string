@@ -1,0 +1,20 @@
+{
+	"name": "@imedadel/lz-string",
+	"version": "1.0.0",
+	"description": "Modern fork of lz-string",
+	"repository": "https://github.com/ImedAdel/lz-string",
+	"author": "Imed Adel <aadelimed@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"microbundle": "^0.11.0"
+	},
+	"source": "src/index.js",
+	"main": "dist/lzstring.js",
+	"module": "dist/lzstring.module.js",
+	"unpkg": "dist/lzstring.umd.js",
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	}
+}

@@ -9,6 +9,9 @@
 	"devDependencies": {
 		"microbundle": "^0.11.0"
 	},
+	"files": [
+		"dist"
+	],
 	"source": "src/index.js",
 	"main": "dist/lzstring.js",
 	"module": "dist/lzstring.module.js",
